@@ -79,7 +79,7 @@ public class LaunchAnimation extends Activity implements View.OnClickListener {
             //キャッシュ無効化
             view.setDrawingCacheEnabled(false);
         }
-        //カスタムアニメーション
+        //ガンダムアニメーション
         else if(TAG_CUSTOM.equals(tag)){
             ActivityOptions opts = ActivityOptions.makeCustomAnimation(this, R.anim.zoom_enter, R.anim.zoom_exit);
             startActivity(new Intent(this, MyActivity.class), opts.toBundle());
