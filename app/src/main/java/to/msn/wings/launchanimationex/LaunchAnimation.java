@@ -54,7 +54,7 @@ public class LaunchAnimation extends Activity implements View.OnClickListener {
     //ボタンクリック時に呼ばれる
     public void onClick(View view){
         String tag = (String)view.getTag();
-        //デフォルトアニメーション
+        //デフォルトアニメーションオン
         if(TAG_DEFAULT.equals(tag)){
             Intent intent = new Intent(this, MyActivity.class);
             startActivity(intent);
